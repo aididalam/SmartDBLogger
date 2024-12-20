@@ -1,0 +1,30 @@
+{
+  "name": "dblog",
+  "version": "1.0.0",
+  "description": "Logs database operations (CRUD) to a blockchain for transparency and auditing.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain",
+    "database",
+    "logging",
+    "CRUD",
+    "mysql",
+    "firebase"
+  ],
+  "author": "Aidid Alam",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.0.0",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.31.0",
+    "firebase-admin": "^11.10.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
